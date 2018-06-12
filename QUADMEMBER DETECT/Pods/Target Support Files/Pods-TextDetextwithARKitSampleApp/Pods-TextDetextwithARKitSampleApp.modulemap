@@ -1,0 +1,6 @@
+framework module Pods_TextDetextwithARKitSampleApp {
+  umbrella header "Pods-TextDetextwithARKitSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

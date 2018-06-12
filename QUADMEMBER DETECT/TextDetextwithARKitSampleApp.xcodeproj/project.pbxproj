@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47DD23E920CE16570035EE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD23E820CE16570035EE92 /* AppDelegate.swift */; };
+		47DD23EB20CE16570035EE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DD23EA20CE16570035EE92 /* ViewController.swift */; };
+		47DD23EE20CE16570035EE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DD23EC20CE16570035EE92 /* Main.storyboard */; };
+		47DD23F020CE16580035EE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DD23EF20CE16580035EE92 /* Assets.xcassets */; };
+		47DD23F320CE16580035EE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DD23F120CE16580035EE92 /* LaunchScreen.storyboard */; };
+		47F88D8020CE7D8B0053740B /* quadMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 47F88D7F20CE7D8B0053740B /* quadMLModel.mlmodel */; };
+		FE8622DB2E4BBC6169717618 /* Pods_TextDetextwithARKitSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8D380156F5E2EA91F25A4B /* Pods_TextDetextwithARKitSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47DD23E520CE16570035EE92 /* TextDetextwithARKitSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextDetextwithARKitSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DD23E820CE16570035EE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47DD23EA20CE16570035EE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47DD23ED20CE16570035EE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47DD23EF20CE16580035EE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47DD23F220CE16580035EE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47DD23F420CE16580035EE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F88D7F20CE7D8B0053740B /* quadMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = quadMLModel.mlmodel; sourceTree = "<group>"; };
+		917B37DC37F22516B8A78981 /* Pods-TextDetextwithARKitSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDetextwithARKitSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TextDetextwithARKitSampleApp/Pods-TextDetextwithARKitSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		9C8D380156F5E2EA91F25A4B /* Pods_TextDetextwithARKitSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextDetextwithARKitSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44F43D765133DEB0D252DA5 /* Pods-TextDetextwithARKitSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextDetextwithARKitSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TextDetextwithARKitSampleApp/Pods-TextDetextwithARKitSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47DD23E220CE16570035EE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8622DB2E4BBC6169717618 /* Pods_TextDetextwithARKitSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4CE3C4FC50DB5E715E0F41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D44F43D765133DEB0D252DA5 /* Pods-TextDetextwithARKitSampleApp.debug.xcconfig */,
+				917B37DC37F22516B8A78981 /* Pods-TextDetextwithARKitSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47DD23DC20CE16570035EE92 = {
+			isa = PBXGroup;
+			children = (
+				47DD23E720CE16570035EE92 /* TextDetextwithARKitSampleApp */,
+				47DD23E620CE16570035EE92 /* Products */,
+				0A4CE3C4FC50DB5E715E0F41 /* Pods */,
+				54DE65FD071DC4DBC9AD097F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47DD23E620CE16570035EE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47DD23E520CE16570035EE92 /* TextDetextwithARKitSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47DD23E720CE16570035EE92 /* TextDetextwithARKitSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				47DD23E820CE16570035EE92 /* AppDelegate.swift */,
+				47DD23EA20CE16570035EE92 /* ViewController.swift */,
+				47F88D7F20CE7D8B0053740B /* quadMLModel.mlmodel */,
+				47DD23EC20CE16570035EE92 /* Main.storyboard */,
+				47DD23EF20CE16580035EE92 /* Assets.xcassets */,
+				47DD23F120CE16580035EE92 /* LaunchScreen.storyboard */,
+				47DD23F420CE16580035EE92 /* Info.plist */,
+			);
+			path = TextDetextwithARKitSampleApp;
+			sourceTree = "<group>";
+		};
+		54DE65FD071DC4DBC9AD097F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D380156F5E2EA91F25A4B /* Pods_TextDetextwithARKitSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47DD23E420CE16570035EE92 /* TextDetextwithARKitSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DD23F720CE16580035EE92 /* Build configuration list for PBXNativeTarget "TextDetextwithARKitSampleApp" */;
+			buildPhases = (
+				6C5E762E9C86145775CECE3B /* [CP] Check Pods Manifest.lock */,
+				47DD23E120CE16570035EE92 /* Sources */,
+				47DD23E220CE16570035EE92 /* Frameworks */,
+				47DD23E320CE16570035EE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextDetextwithARKitSampleApp;
+			productName = TextDetextwithARKitSampleApp;
+			productReference = 47DD23E520CE16570035EE92 /* TextDetextwithARKitSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47DD23DD20CE16570035EE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = HengVisal;
+				TargetAttributes = {
+					47DD23E420CE16570035EE92 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 47DD23E020CE16570035EE92 /* Build configuration list for PBXProject "TextDetextwithARKitSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47DD23DC20CE16570035EE92;
+			productRefGroup = 47DD23E620CE16570035EE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47DD23E420CE16570035EE92 /* TextDetextwithARKitSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47DD23E320CE16570035EE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DD23F320CE16580035EE92 /* LaunchScreen.storyboard in Resources */,
+				47DD23F020CE16580035EE92 /* Assets.xcassets in Resources */,
+				47DD23EE20CE16570035EE92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5E762E9C86145775CECE3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextDetextwithARKitSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47DD23E120CE16570035EE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DD23EB20CE16570035EE92 /* ViewController.swift in Sources */,
+				47DD23E920CE16570035EE92 /* AppDelegate.swift in Sources */,
+				47F88D8020CE7D8B0053740B /* quadMLModel.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47DD23EC20CE16570035EE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DD23ED20CE16570035EE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47DD23F120CE16580035EE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47DD23F220CE16580035EE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47DD23F520CE16580035EE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47DD23F620CE16580035EE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47DD23F820CE16580035EE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44F43D765133DEB0D252DA5 /* Pods-TextDetextwithARKitSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93GSU5NMZY;
+				INFOPLIST_FILE = TextDetextwithARKitSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qnet.notify.TextDetextwithARKitSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47DD23F920CE16580035EE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917B37DC37F22516B8A78981 /* Pods-TextDetextwithARKitSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93GSU5NMZY;
+				INFOPLIST_FILE = TextDetextwithARKitSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qnet.notify.TextDetextwithARKitSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47DD23E020CE16570035EE92 /* Build configuration list for PBXProject "TextDetextwithARKitSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DD23F520CE16580035EE92 /* Debug */,
+				47DD23F620CE16580035EE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47DD23F720CE16580035EE92 /* Build configuration list for PBXNativeTarget "TextDetextwithARKitSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47DD23F820CE16580035EE92 /* Debug */,
+				47DD23F920CE16580035EE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47DD23DD20CE16570035EE92 /* Project object */;
+}
